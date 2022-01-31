@@ -8,7 +8,7 @@ Mikrotik API setup procedure can be found here: https://help.mikrotik.com/docs/d
 
 #**Settings:**
 
-[router_settings]  # These settings can be found here: https://github.com/socialwifi/RouterOS-api
+[router_settings]  # These settings can be found here: https://github.com/socialwifi/RouterOS-api \
 host = <mikrotik-ip-address> \
 port = 8729  # API port \
 use_ssl = True \
