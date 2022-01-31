@@ -1,0 +1,166 @@
+{
+  "feeds": [
+    {
+      "name": "SpamHaus Drop",
+      "url": "https://www.spamhaus.org/drop/drop.txt",
+      "format": "cidr",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "SpamHaus eDrop",
+      "url": "https://www.spamhaus.org/drop/edrop.txt",
+      "format": "cidr",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "URLhaus Abuse",
+      "url": "https://urlhaus.abuse.ch/downloads/text/",
+      "format": "special",
+      "disabled": false,
+      "type": "dec_list"
+    },
+    {
+      "name": "PAllebone",
+      "url": "https://github.com/pallebone/StrictBlockPAllebone/raw/master/BlockIP.txt",
+      "format": "special",
+      "disabled": false,
+      "type": "asc_list"
+    },
+    {
+      "name": "Woody",
+      "url": "https://blacklist.woody.ch",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "Blocklist.de",
+      "url": "https://lists.blocklist.de/lists/all.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "Emerging Threats",
+      "url": "http://rules.emergingthreats.net/blockrules/compromised-ips.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "TOR Exit Nodes",
+      "url": "https://check.torproject.org/exit-addresses",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "AlienVault",
+      "url": "http://reputation.alienvault.com/reputation.data",
+      "format": "ip",
+      "contains_geodata": true,
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "BlocklistDe",
+      "url": "http://www.blocklist.de/lists/bruteforcelogin.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "OpenBlock",
+      "url": "http://www.openbl.org/lists/date_all.txt",
+      "format": "ip",
+      "disabled": true,
+      "type": "list"
+    },
+    {
+      "name": "NoThink - Malware",
+      "url": "http://www.nothink.org/blacklist/blacklist_malware_http.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "NoThink - SSH",
+      "url": "http://www.nothink.org/blacklist/blacklist_ssh_all.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "antispam.imp.ch",
+      "url": "http://antispam.imp.ch/spamlist",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "Dshield",
+      "url": "http://www.dshield.org/ipsascii.html?limit=10000",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "malc0de",
+      "url": "http://malc0de.com/bl/IP_Blacklist.txt",
+      "format": "ip",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "MalwareBytes",
+      "url": "http://hosts-file.net/rss.asp",
+      "format": "rss",
+      "disabled": false,
+      "type": "list"
+    },
+    {
+      "name": "bl.spamcannibal.org",
+      "type": "dns",
+      "url": "bl.spamcannibal.org",
+      "format": "dns",
+      "disabled": false
+    },
+    {
+      "name": "blacklist.woody.ch",
+      "type": "dns",
+      "url": "blacklist.woody.ch",
+      "format": "dns",
+      "disabled": false
+    },
+    {
+      "name": "images.rbl.msrbl.net",
+      "url": "http.dnsbl.sorbs.net",
+      "type": "dns",
+      "disabled": false,
+      "format": "dns"
+    },
+    {
+      "name": "rbl.interserver.net",
+      "type": "dns",
+      "url": "rbl.interserver.net",
+      "disabled": false,
+      "format": "dns"
+    },
+    {
+      "name": "torserver.tor.dnsbl.sectoor.de",
+      "url": "torserver.tor.dnsbl.sectoor.de",
+      "type": "dns",
+      "disabled": false,
+      "format": "dns"
+    },
+    {
+      "name": "ubl.lashback.com",
+      "type": "dns",
+      "url": "ubl.lashback.com",
+      "disabled": false,
+      "format": "dns"
+    }
+  ]
+}
